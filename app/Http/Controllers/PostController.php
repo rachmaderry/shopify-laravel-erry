@@ -58,7 +58,7 @@ class PostController extends Controller
         ]);
 
         //redirect to index
-        return redirect()->route('posts.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        return redirect()->route('posts.index')->with(['success' => 'Data Berhasil Disimpan ya!']);
     }
 
     /**
