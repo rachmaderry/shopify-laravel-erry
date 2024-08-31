@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/posts', \App\Http\Controllers\PostController::class);
 Route::resource('/install', \App\Http\Controllers\InstallController::class);
 Route::resource('/redir', \App\Http\Controllers\RedirController::class);
-Route::resource('/product/push', \App\Http\Controllers\Api\ProductController::class);
+
 
 Route::get('/', function () {
     return view('index');

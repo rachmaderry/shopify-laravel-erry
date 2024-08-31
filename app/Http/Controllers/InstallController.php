@@ -13,7 +13,7 @@ class InstallController extends Controller
     public function index(Request $request)
     {
         $_API_KEY = "c6393cff85bfb0ab4cdbc843c508a9df";
-        $_NGROK_URL = "https://5163-36-68-11-113.ngrok-free.app";
+        $_NGROK_URL = "https://44be-36-65-1-212.ngrok-free.app";
         $shop = $_GET['shop'];
         $scopes = 'read_products,write_products,read_orders,write_orders';
         $redirect_uri = $_NGROK_URL . '/redir';
